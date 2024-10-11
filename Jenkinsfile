@@ -35,7 +35,7 @@ pipeline{
 }*/
     
      
-         stage("Jar Publish") {
+      /*   stage("Jar Publish") {
         steps {
             script {
                     echo '<--------------- Jar Publish Started --------------->'
@@ -64,7 +64,7 @@ pipeline{
 //}
 
 
-    /*stage(" Docker Build ") {
+    stage(" Docker Build ") {
       steps {
         script {
            echo '<--------------- Docker Build Started --------------->'
