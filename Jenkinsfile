@@ -64,7 +64,7 @@ pipeline{
 //}
 
 
-    stage(" Docker Build ") {
+    /*stage(" Docker Build ") {
       steps {
         script {
            echo '<--------------- Docker Build Started --------------->'
@@ -92,6 +92,9 @@ pipeline{
                   //sh 'helm install ttrend-1 ttrend-1-0.1.0.tgz'
                 //}
               //}
-    //}
+    //} 
+    }
+}
+*/
     }
 }
