@@ -1,5 +1,5 @@
 def registry = 'https://trial3tt8b4.jfrog.io/' 
-//def imageName = 'sagar1993.jfrog.io/sagar-docker-local/ttrend'
+def imageName = 'https://trial3tt8b4.jfrog.io/sagar-docker-docker-local/ttrend'
    def version   = '2.0.2'
 pipeline{
     agent {
@@ -35,7 +35,7 @@ pipeline{
 }*/
     
      
-      /*   stage("Jar Publish") {
+        stage("Jar Publish") {
         steps {
             script {
                     echo '<--------------- Jar Publish Started --------------->'
@@ -84,7 +84,7 @@ pipeline{
                echo '<--------------- Docker Publish Ended --------------->'  
             }
         }
-    }*/
+    }
           //   stage("deployment"){
             //  steps {
               //  script{
