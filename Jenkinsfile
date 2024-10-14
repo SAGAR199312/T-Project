@@ -64,7 +64,7 @@ pipeline{
 //}
 
 
-    /*stage(" Docker Build ") {
+    stage(" Docker Build ") {
       steps {
         script {
            echo '<--------------- Docker Build Started --------------->'
@@ -95,6 +95,6 @@ pipeline{
     //} 
     }
 }
-*/
-    }
-}
+
+  //  }
+//}
